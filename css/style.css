@@ -1337,7 +1337,7 @@
     max-width: 100%;
     border: none;
     position: relative;
-    max-width: 80%;
+    max-width: 70%;
   }
 
   .events .email form input[type="text"]:focus {
