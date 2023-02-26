@@ -1323,9 +1323,8 @@
 
   @media (max-width:767px) {
     .events .email form::before {
-      width: 108%;
+      width:150%;
       height: 130%;
-
     }
 
   }
