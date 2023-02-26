@@ -1352,6 +1352,12 @@
     max-width: 30%;
   }
 
+  @media (max-width: 991px) {
+    .events .email form input[type="submit"] {
+      margin-left:10px;
+    }
+  }
+
   .events .email form input[type="submit"]:hover {
     background: var(--main-color--alt);
   }
@@ -1766,7 +1772,7 @@
   .discount .left p {
     position: relative;
     width: 500px;
-    max-width: 100%;
+    max-width: 95%;
     line-height: 1.6;
     color: white;
     font-size: 18px;
@@ -1810,6 +1816,13 @@
     min-width: 32%;
     border-bottom: 1px solid #110f0f2d;
     resize: none;
+  }
+
+  @media (max-width:991px) {
+    .discount .right form input,
+  .discount .right form textarea {
+    min-width: 60%;
+  }
   }
 
   .discount .right form input:focus,
