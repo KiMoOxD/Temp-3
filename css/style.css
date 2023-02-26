@@ -1323,7 +1323,7 @@
 
   @media (max-width:767px) {
     .events .email form::before {
-      width: 105%;
+      width: 108%;
       height: 130%;
 
     }
@@ -1337,7 +1337,7 @@
     max-width: 100%;
     border: none;
     position: relative;
-    max-width: 60%;
+    max-width: 80%;
   }
 
   .events .email form input[type="text"]:focus {
@@ -1358,11 +1358,7 @@
     max-width: 30%;
   }
 
-  @media (max-width: 991px) {
-    .events .email form input[type="submit"] {
-      margin-left:10px;
-    }
-  }
+  
 
   .events .email form input[type="submit"]:hover {
     background: var(--main-color--alt);
