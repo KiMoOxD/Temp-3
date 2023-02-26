@@ -1336,7 +1336,7 @@
     max-width: 100%;
     border: none;
     position: relative;
-    max-width: 80%;
+    /* max-width: 70%; */
   }
 
   .events .email form input[type="text"]:focus {
@@ -1354,7 +1354,7 @@
     font-weight: bold;
     position: relative;
     cursor: pointer;
-    max-width: 30%;
+    /* max-width: 30%; */
   }
 
   
@@ -1846,3 +1846,147 @@
   }
 
   /* End Discount */
+
+  /* Start Footer */
+
+  .footer {
+    position: relative;
+    padding: 60px 0;
+    background: #191919;
+  }
+
+  .footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    color: #b7b2b2;
+  }
+
+  .footer .container .box:nth-child(1) {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer .container .box:nth-child(1) h2 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .footer .container .box:nth-child(1) .social {
+    display: flex;
+    gap: 10px;
+    width: 70%;
+    height: 50px;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+  
+
+  .footer .container .box:nth-child(1) .social  a {
+    color: #a9a5a5;
+    background: #403f3f;
+    font-size: 18px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  .footer .container .box:nth-child(1) .social  a:first-child:hover {
+    background: #1787e0;
+  }
+
+  .footer .container .box:nth-child(1) .social  a:nth-child(2):hover {
+    background: #2196F3;
+  }
+
+  .footer .container .box:nth-child(1) .social  a:last-child:hover {
+    background: rgba(247, 17, 17, 0.794);
+  }
+
+  .footer .container .box:nth-child(1)  p{
+    line-height: 2;
+    font-size: 16px;
+    color: rgb(183, 178, 178);
+  }
+
+  .footer .container .box:nth-child(2) {
+    /* padding: 10px 0; */
+  }
+
+  .footer .container .box:nth-child(2) li {
+    padding: 17px 17px 17px 25px;
+  }
+
+  .footer .container .box:nth-child(2) li:not(:first-child) {
+    border-top: 1px solid #b7b2b26b;
+  }
+
+  .footer .container .box:nth-child(2) a {
+    position: relative;
+    text-decoration: none;
+    color: #b7b2b2;
+    display: inline-block;
+    width: 100%;
+    transition: 0.3s;
+  }
+
+  .footer .container .box:nth-child(2) a::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\F101";
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    transform: translateY(-50%);
+    color: var(--main-color);
+  }
+
+  .footer .container .box:nth-child(2) li:hover a {
+    transform: translateX(10px);
+    color: white;
+  }
+
+  .footer .container .box:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .footer .container .box:nth-child(3) .line {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 15px;
+    padding: 20px 0 0 0;
+  }
+
+  .footer .container .box:nth-child(3) .line i {
+    color: var(--main-color);
+    font-size: 25px;
+  }
+
+  .footer .container .box:nth-child(4) img {
+    width: 78px;
+    margin: 2px;
+    border: 3px white solid;
+  }
+
+  /* End Footer */
+
+
+  .end {
+    position: relative;
+    padding: 25px 0;
+    background: #191919;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    border-top: 1px solid #b7b2b26b;
+  }
