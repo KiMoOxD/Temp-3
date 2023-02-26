@@ -1337,8 +1337,7 @@
     max-width: 100%;
     border: none;
     position: relative;
-    /* max-width: 70%; */
-    flex: 1;
+    max-width: 60%;
   }
 
   .events .email form input[type="text"]:focus {
@@ -1356,8 +1355,7 @@
     font-weight: bold;
     position: relative;
     cursor: pointer;
-    /* max-width: 20%; */
-    width: fit-content;
+    max-width: 30%;
   }
 
   @media (max-width: 991px) {
