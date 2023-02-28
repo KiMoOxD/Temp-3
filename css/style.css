@@ -1321,7 +1321,6 @@
     width: fit-content;
     margin: 0 auto;
     max-width: 100%;
-    flex-wrap: wrap;
   }
 
   .events .email form::before {
