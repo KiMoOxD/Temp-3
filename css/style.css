@@ -1340,8 +1340,8 @@
 
   @media (max-width:767px) {
     .events .email form::before {
-      top: 40%;
-      width:150%;
+      top: 24px;
+      width: 101%;
       height: 100%;
     }
 
@@ -1355,6 +1355,16 @@
     border: none;
     position: relative;
     /* max-width: 70%; */
+  }
+
+  @media (max-width:767px) {
+    .events .email form input[type="text"] {
+      border-radius: 50px;
+    padding: 10px;
+    border: none;
+    position: relative;
+    flex: 1;
+    }
   }
 
   .events .email form input[type="text"]:focus {
@@ -1372,10 +1382,22 @@
     font-weight: bold;
     position: relative;
     cursor: pointer;
-    /* max-width: 30%; */
   }
 
-  
+  @media (max-width:767px) {
+    .events .email form input[type="submit"] {
+      border-radius: 50px;
+      padding: 10px;
+      margin: 5px;
+      background: var(--main-color);
+      color: white;
+      border: none;
+      transition: 0.3s;
+      font-weight: bold;
+      position: relative;
+      cursor: pointer;
+    }
+  }  
 
   .events .email form input[type="submit"]:hover {
     background: var(--main-color--alt);
